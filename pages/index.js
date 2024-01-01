@@ -9,78 +9,6 @@ const Home = (props) => {
           <title>Presente live</title>
           <meta property="og:title" content="Presente live" />
         </Head>
-        <div className="home-header">
-          <header data-thq="thq-navbar" className="home-navbar-interactive">
-            <img alt="image" src="/logopre-400h.png" className="home-image" />
-            <h1 className="home-text">Presente Live</h1>
-            <div data-thq="thq-navbar-nav" className="home-desktop-menu">
-              <div className="home-buttons">
-                <a
-                  href="https://instagram.com/presentelive"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="home-login button"
-                >
-                  Seguir no insta
-                </a>
-                <button className="home-register button">Baixar app</button>
-              </div>
-            </div>
-            <div data-thq="thq-burger-menu" className="home-burger-menu"></div>
-            <div data-thq="thq-mobile-menu" className="home-mobile-menu">
-              <div className="home-nav">
-                <div className="home-top">
-                  <span className="home-logo">Presente Live</span>
-                  <div data-thq="thq-close-menu" className="home-close-menu">
-                    <svg viewBox="0 0 1024 1024" className="home-icon">
-                      <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                    </svg>
-                  </div>
-                </div>
-                <nav className="home-links">
-                  <span>Quem somos</span>
-                  <span className="home-nav2">Sorteios</span>
-                  <span className="home-nav3">Presentes</span>
-                  <a
-                    href="https://www.whatsapp.com/channel/0029VaEGIEb3GJOxwiCcch2z"
-                    className="home-nav4"
-                  >
-                    Canal no zap
-                  </a>
-                </nav>
-                <div className="home-buttons1">
-                  <a
-                    href="https://www.instagram.com/presentelive"
-                    className="home-login1 button"
-                  >
-                    Seguir no insta
-                  </a>
-                  <button className="home-register1 button">Baixar app</button>
-                </div>
-              </div>
-              <div>
-                <svg
-                  viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon02"
-                >
-                  <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
-                </svg>
-                <svg
-                  viewBox="0 0 877.7142857142857 1024"
-                  className="home-icon04"
-                >
-                  <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-                </svg>
-                <svg
-                  viewBox="0 0 602.2582857142856 1024"
-                  className="home-icon06"
-                >
-                  <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
-                </svg>
-              </div>
-            </div>
-          </header>
-        </div>
         <div className="home-hero">
           <div className="home-hero1">
             <div className="home-container1">
@@ -91,7 +19,14 @@ const Home = (props) => {
                 Idéias para presentes exclusivos e únicos
               </span>
               <div className="home-btn-group">
-                <button className="home-hero-button1 button">Baixar app</button>
+                <button className="home-hero-button1 button">
+                  <img
+                    alt="image"
+                    src="/logopre-400h.png"
+                    className="home-image"
+                  />
+                  <span className="home-text">Baixar app</span>
+                </button>
                 <a
                   href="https://instagram.com/presentelive"
                   className="home-hero-button2 button"
@@ -135,12 +70,15 @@ const Home = (props) => {
         <div className="home-banner">
           <div className="home-banner1">
             <h1 className="home-banner-heading heading2">
-              Descubra Qual o presente Perfeito
+              Não perca nenhum sorteio!
             </h1>
             <span className="home-banner-sub-heading">
               <span>Temos um canal no whatsapp</span>
               <br></br>
             </span>
+            <svg viewBox="0 0 1024 1024" className="home-icon">
+              <path d="M873 148.8c-95.8-96-223.2-148.8-359-148.8-279.6 0-507.2 227.6-507.2 507.4 0 89.4 23.4 176.8 67.8 253.6l-72 263 269-70.6c74.2 40.4 157.6 61.8 242.4 61.8h0.2c0 0 0 0 0 0 279.6 0 507.4-227.6 507.4-507.4 0-135.6-52.8-263-148.6-359zM514.2 929.6v0c-75.8 0-150-20.4-214.8-58.8l-15.4-9.2-159.6 41.8 42.6-155.6-10-16c-42.4-67-64.6-144.6-64.6-224.4 0-232.6 189.2-421.8 422-421.8 112.6 0 218.6 44 298.2 123.6 79.6 79.8 123.4 185.6 123.4 298.4-0.2 232.8-189.4 422-421.8 422zM745.4 613.6c-12.6-6.4-75-37-86.6-41.2s-20-6.4-28.6 6.4c-8.4 12.6-32.8 41.2-40.2 49.8-7.4 8.4-14.8 9.6-27.4 3.2s-53.6-19.8-102-63c-37.6-33.6-63.2-75.2-70.6-87.8s-0.8-19.6 5.6-25.8c5.8-5.6 12.6-14.8 19-22.2s8.4-12.6 12.6-21.2c4.2-8.4 2.2-15.8-1-22.2s-28.6-68.8-39-94.2c-10.2-24.8-20.8-21.4-28.6-21.8-7.4-0.4-15.8-0.4-24.2-0.4s-22.2 3.2-33.8 15.8c-11.6 12.6-44.4 43.4-44.4 105.8s45.4 122.6 51.8 131.2c6.4 8.4 89.4 136.6 216.6 191.4 30.2 13 53.8 20.8 72.2 26.8 30.4 9.6 58 8.2 79.8 5 24.4-3.6 75-30.6 85.6-60.2s10.6-55 7.4-60.2c-3-5.6-11.4-8.8-24.2-15.2z"></path>
+            </svg>
             <a
               href="https://www.whatsapp.com/channel/0029VaEGIEb3GJOxwiCcch2z"
               className="home-banner-button button"
@@ -157,10 +95,10 @@ const Home = (props) => {
                 src="/logopresente1%20(1)-200h.png"
                 className="home-image1"
               />
-              <nav className="home-nav1 home-nav1">
-                <span className="home-nav11">Quem somos</span>
-                <span className="home-nav21">Sorteios</span>
-                <span className="home-nav31">Presente perfeito</span>
+              <nav className="home-nav">
+                <span className="home-nav1">Quem somos</span>
+                <span className="home-nav2">Sorteios</span>
+                <span className="home-nav3">Presente perfeito</span>
               </nav>
             </div>
             <div className="home-separator"></div>
@@ -168,10 +106,10 @@ const Home = (props) => {
               <span className="home-text10">
                 © 2024 Presentelive, All Rights Reserved.
               </span>
-              <div className="home-icon-group1">
+              <div className="home-icon-group">
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon08"
+                  className="home-icon2"
                 >
                   <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
                 </svg>
@@ -181,7 +119,7 @@ const Home = (props) => {
                 >
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon10"
+                    className="home-icon4"
                   >
                     <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
                   </svg>
@@ -192,7 +130,7 @@ const Home = (props) => {
                 >
                   <svg
                     viewBox="0 0 602.2582857142856 1024"
-                    className="home-icon12"
+                    className="home-icon6"
                   >
                     <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
                   </svg>
@@ -211,185 +149,6 @@ const Home = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
-          }
-          .home-header {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
-            background-color: #1dc4e4;
-          }
-          .home-navbar-interactive {
-            width: 90%;
-            display: flex;
-            position: sticky;
-            max-width: var(--dl-size-size-maxwidth);
-            align-items: center;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            padding-left: var(--dl-space-space-threeunits);
-            border-radius: 50px;
-            padding-right: var(--dl-space-space-threeunits);
-            justify-content: space-between;
-            background-color: var(--dl-color-gray-white);
-          }
-          .home-image {
-            width: 200px;
-            object-fit: cover;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .home-text {
-            width: 373px;
-            height: 39px;
-          }
-          .home-desktop-menu {
-            flex: 1;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-buttons {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-login {
-            border-color: var(--dl-color-primary1-blue100);
-            border-width: 1px;
-            margin-right: var(--dl-space-space-twounits);
-            padding-left: 1.5rem;
-            border-radius: 45px;
-            padding-right: 1.5rem;
-            text-decoration: none;
-          }
-          .home-register {
-            color: var(--dl-color-gray-white);
-            transition: 0.3s;
-            font-weight: bold;
-            border-color: var(--dl-color-primary1-blue100);
-            padding-left: 1.5rem;
-            border-radius: 45px;
-            padding-right: 1.5rem;
-            background-color: var(--dl-color-primary1-blue100);
-          }
-          .home-register:hover {
-            border-color: rgba(41, 20, 119, 0.9);
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-            background-color: rgba(41, 20, 119, 0.9);
-          }
-          .home-burger-menu {
-            display: none;
-          }
-          .home-mobile-menu {
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            height: 100vh;
-            display: none;
-            padding: 32px;
-            z-index: 100;
-            position: absolute;
-            border-radius: 50px;
-            flex-direction: column;
-            justify-content: space-between;
-            background-color: var(--dl-color-gray-white);
-          }
-          .home-nav {
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-top {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            margin-bottom: var(--dl-space-space-threeunits);
-            justify-content: space-between;
-          }
-          .home-logo {
-            font-size: 2em;
-            font-weight: bold;
-          }
-          .home-close-menu {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .home-icon {
-            fill: var(--dl-color-gray-900);
-            width: var(--dl-size-size-xsmall);
-            cursor: pointer;
-            height: var(--dl-size-size-xsmall);
-          }
-          .home-links {
-            flex: 0 0 auto;
-            display: flex;
-            align-self: flex-start;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-nav1 {
-            color: var(--dl-color-gray-black);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-nav2 {
-            color: var(--dl-color-gray-black);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-nav3 {
-            color: var(--dl-color-gray-black);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-nav4 {
-            color: var(--dl-color-gray-black);
-            margin-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
-          .home-buttons1 {
-            display: flex;
-            margin-top: var(--dl-space-space-unit);
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-login1 {
-            border-color: var(--dl-color-primary1-blue100);
-            border-width: 1px;
-            margin-right: var(--dl-space-space-twounits);
-            padding-left: 1.5rem;
-            border-radius: 30px;
-            padding-right: 1.5rem;
-            text-decoration: none;
-          }
-          .home-register1 {
-            color: var(--dl-color-gray-white);
-            transition: 0.3s;
-            border-color: var(--dl-color-primary1-blue100);
-            border-width: 1px;
-            padding-left: 1.5rem;
-            border-radius: 30px;
-            padding-right: 1.5rem;
-            background-color: var(--dl-color-primary1-blue100);
-          }
-          .home-register1:hover {
-            border-color: #849492ff;
-            background-color: #849492ff;
-          }
-          .home-icon02 {
-            width: var(--dl-size-size-xsmall);
-            height: var(--dl-size-size-xsmall);
-            margin-right: var(--dl-space-space-twounits);
-          }
-          .home-icon04 {
-            width: var(--dl-size-size-xsmall);
-            height: var(--dl-size-size-xsmall);
-            margin-right: var(--dl-space-space-twounits);
-          }
-          .home-icon06 {
-            width: var(--dl-size-size-xsmall);
-            height: var(--dl-size-size-xsmall);
           }
           .home-hero {
             flex: 0 0 auto;
@@ -433,6 +192,7 @@ const Home = (props) => {
             font-size: 18px;
             text-align: center;
             line-height: 1.6;
+            background-color: rgb(255, 0, 102);
           }
           .home-btn-group {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -442,6 +202,7 @@ const Home = (props) => {
           }
           .home-hero-button1 {
             color: var(--dl-color-gray-white);
+            display: flex;
             font-size: 18px;
             transition: 0.3s;
             font-weight: bold;
@@ -451,6 +212,7 @@ const Home = (props) => {
             padding-left: 3rem;
             border-radius: 45px;
             padding-right: 3rem;
+            flex-direction: row;
             padding-bottom: 1.5rem;
             background-color: var(--dl-color-primary1-blue100);
           }
@@ -458,6 +220,15 @@ const Home = (props) => {
             color: var(--dl-color-gray-white);
             border-color: rgba(41, 20, 119, 0.9);
             background-color: rgba(41, 20, 119, 0.9);
+          }
+          .home-image {
+            width: 122px;
+            height: 96px;
+            object-fit: cover;
+          }
+          .home-text {
+            font-size: 22px;
+            align-self: center;
           }
           .home-hero-button2 {
             color: var(--dl-color-gray-white);
@@ -566,6 +337,10 @@ const Home = (props) => {
             text-align: center;
             line-height: 1.6;
           }
+          .home-icon {
+            width: 24px;
+            height: 24px;
+          }
           .home-banner-button {
             color: var(--dl-color-gray-white);
             font-size: 19px;
@@ -618,22 +393,22 @@ const Home = (props) => {
             width: 200px;
             object-fit: cover;
           }
-          .home-nav1 {
+          .home-nav {
             flex: 0 0 auto;
             display: flex;
             margin-top: 0px;
             align-items: center;
             flex-direction: row;
           }
-          .home-nav11 {
+          .home-nav1 {
             color: var(--dl-color-secondary-gray500);
             margin-left: 0px;
           }
-          .home-nav21 {
+          .home-nav2 {
             color: var(--dl-color-secondary-gray500);
             margin-left: var(--dl-space-space-unit);
           }
-          .home-nav31 {
+          .home-nav3 {
             color: var(--dl-color-secondary-gray500);
             margin-left: var(--dl-space-space-unit);
           }
@@ -666,13 +441,13 @@ const Home = (props) => {
           .home-text10 {
             color: var(--dl-color-gray-white);
           }
-          .home-icon-group1 {
+          .home-icon-group {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-icon08 {
+          .home-icon2 {
             fill: var(--dl-color-secondary-gray500);
             width: 24px;
             height: 24px;
@@ -681,7 +456,7 @@ const Home = (props) => {
           .home-link {
             display: contents;
           }
-          .home-icon10 {
+          .home-icon4 {
             fill: var(--dl-color-secondary-gray500);
             width: 24px;
             height: 24px;
@@ -691,7 +466,7 @@ const Home = (props) => {
           .home-link1 {
             display: contents;
           }
-          .home-icon12 {
+          .home-icon6 {
             fill: var(--dl-color-secondary-gray500);
             width: 24px;
             height: 24px;
@@ -730,39 +505,6 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .home-navbar-interactive {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .home-desktop-menu {
-              display: none;
-            }
-            .home-burger-menu {
-              display: flex;
-              align-items: center;
-              justify-content: center;
-            }
-            .home-mobile-menu {
-              padding-top: var(--dl-space-space-oneandhalfunits);
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-              padding-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-nav1 {
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-nav2 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-nav3 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-nav4 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
             .home-hero1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
@@ -830,61 +572,42 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .home-navbar-interactive {
-              width: 90%;
-              height: 56px;
-              padding: var(--dl-space-space-unit);
-              padding-top: var(--dl-space-space-unit);
-              padding-left: var(--dl-space-space-unit);
-              margin-bottom: 0px;
-              padding-right: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-unit);
-            }
-            .home-image {
-              width: 50px;
-              height: 53px;
-            }
-            .home-text {
-              width: 294px;
-              align-self: center;
-              text-align: center;
-              padding-right: 75px;
-            }
-            .home-mobile-menu {
-              padding: 16px;
-            }
-            .home-logo {
-              font-size: 1.5em;
-            }
-            .home-icon {
-              fill: var(--dl-color-gray-900);
-            }
             .home-hero1 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
-              background-color: #ff0066;
+              background-color: #1dc4e4;
             }
             .home-container1 {
               margin-bottom: var(--dl-space-space-unit);
             }
             .home-hero-heading {
               color: var(--dl-color-gray-white);
+              font-family: Raleway;
+              line-height: 1.6;
             }
             .home-hero-sub-heading {
               color: var(--dl-color-gray-white);
-              font-size: 18px;
-              line-height: 1.6;
+              background-color: rgb(255, 0, 102);
             }
             .home-btn-group {
               flex-direction: column;
+            }
+            .home-image {
+              width: 50px;
+              height: 53px;
+            }
+            .home-text {
+              align-self: center;
+              text-align: center;
             }
             .home-hero-button2 {
               color: var(--dl-color-gray-white);
               margin-top: var(--dl-space-space-unit);
               font-weight: bold;
               margin-left: 0px;
+              text-decoration: none;
               background-color: transparent;
             }
             .home-details-heading {
@@ -904,6 +627,20 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
+            .home-banner-heading {
+              color: var(--dl-color-gray-white);
+              font-family: Raleway;
+              line-height: 1.6;
+            }
+            .home-banner-sub-heading {
+              color: var(--dl-color-gray-white);
+              font-size: 22px;
+              line-height: 1.6;
+            }
+            .home-icon {
+              width: 99px;
+              height: 66px;
+            }
             .home-banner-button {
               color: var(--dl-color-gray-white);
               font-size: 19px;
@@ -913,10 +650,10 @@ const Home = (props) => {
             .home-footer1 {
               padding: var(--dl-space-space-unit);
             }
-            .home-nav21 {
+            .home-nav2 {
               color: var(--dl-color-secondary-gray500);
             }
-            .home-nav31 {
+            .home-nav3 {
               color: var(--dl-color-secondary-gray500);
             }
             .home-separator {
