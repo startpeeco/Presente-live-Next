@@ -103,12 +103,22 @@ const Home = (props) => {
               <nav className="home-nav">
                 <span className="home-nav1">Quem somos</span>
                 <span className="home-nav2">Sorteios</span>
-                <span className="home-nav3">Presente perfeito</span>
+                <span className="home-nav3">
+                  <span className="home-text10">
+                    Presente
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span>perfeito</span>
+                </span>
               </nav>
             </div>
             <div className="home-separator"></div>
             <div className="home-container4">
-              <span className="home-text10">
+              <span className="home-text12">
                 © 2024 Presentelive, All Rights Reserved.
               </span>
               <div className="home-icon-group">
@@ -438,7 +448,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text10 {
+          .home-text12 {
             color: var(--dl-color-gray-white);
           }
           .home-icon-group {
@@ -564,7 +574,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text10 {
+            .home-text12 {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
           }
@@ -647,11 +657,17 @@ const Home = (props) => {
             .home-footer1 {
               padding: var(--dl-space-space-unit);
             }
+            .home-nav1 {
+              color: var(--dl-color-gray-white);
+            }
             .home-nav2 {
-              color: var(--dl-color-secondary-gray500);
+              color: var(--dl-color-gray-white);
             }
             .home-nav3 {
               color: var(--dl-color-secondary-gray500);
+            }
+            .home-text10 {
+              color: var(--dl-color-gray-white);
             }
             .home-separator {
               margin-top: var(--dl-space-space-oneandhalfunits);
@@ -662,7 +678,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text10 {
+            .home-text12 {
               text-align: center;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
