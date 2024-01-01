@@ -104,7 +104,7 @@ const Home = (props) => {
                 <span className="home-nav1">Quem somos</span>
                 <span className="home-nav2">Sorteios</span>
                 <span className="home-nav3">
-                  <span className="home-text10">
+                  <span>
                     Presente
                     <span
                       dangerouslySetInnerHTML={{
@@ -664,9 +664,6 @@ const Home = (props) => {
               color: var(--dl-color-gray-white);
             }
             .home-nav3 {
-              color: var(--dl-color-secondary-gray500);
-            }
-            .home-text10 {
               color: var(--dl-color-gray-white);
             }
             .home-separator {
@@ -679,6 +676,7 @@ const Home = (props) => {
               justify-content: space-between;
             }
             .home-text12 {
+              color: var(--dl-color-gray-white);
               text-align: center;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
