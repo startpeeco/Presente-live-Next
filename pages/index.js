@@ -119,7 +119,10 @@ const Home = (props) => {
             <div className="home-separator"></div>
             <div className="home-container4">
               <span className="home-text12">
-                © 2024 Presentelive, All Rights Reserved.
+                <span className="home-text13">
+                  © 2024 Presentelive, All Rights Reserved
+                </span>
+                <span>.</span>
               </span>
               <div className="home-icon-group">
                 <svg
@@ -186,7 +189,7 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
-            background-color: #1dc4e4;
+            background-color: #ffffff;
           }
           .home-container1 {
             gap: var(--dl-space-space-twounits);
@@ -196,7 +199,7 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-hero-heading {
-            color: var(--dl-color-gray-white);
+            color: #ff0066;
             max-width: 800px;
             text-align: center;
             font-family: 'Raleway';
@@ -584,13 +587,15 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
-              background-color: #1dc4e4;
+              background-color: #ffffff;
             }
             .home-container1 {
               margin-bottom: var(--dl-space-space-unit);
             }
             .home-hero-heading {
-              color: var(--dl-color-gray-white);
+              color: #ff0066;
+              font-family: Raleway;
+              line-height: 1.6;
             }
             .home-hero-sub-heading {
               color: var(--dl-color-gray-white);
@@ -679,6 +684,9 @@ const Home = (props) => {
               color: var(--dl-color-gray-white);
               text-align: center;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .home-text13 {
+              color: var(--dl-color-gray-white);
             }
           }
         `}
