@@ -16,7 +16,16 @@ const Home = (props) => {
                 Encontramos o presente perfeito
               </h1>
               <span className="home-hero-sub-heading">
-                Idéias para presentes exclusivos e únicos
+                <span>
+                  Idéias para presentes
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <br></br>
+                <span>exclusivos e únicos</span>
               </span>
               <div className="home-btn-group">
                 <button className="home-hero-button1 button">
@@ -25,7 +34,7 @@ const Home = (props) => {
                     src="/logopre-400h.png"
                     className="home-image"
                   />
-                  <span className="home-text">Baixar app</span>
+                  <span className="home-text03">Baixar app</span>
                 </button>
                 <a
                   href="https://instagram.com/presentelive"
@@ -40,7 +49,7 @@ const Home = (props) => {
         <div className="home-details">
           <div className="home-details1">
             <div className="home-container2">
-              <span className="home-text01 sectionTitle">
+              <span className="home-text04 sectionTitle">
                 <span>Detalhes</span>
                 <br></br>
               </span>
@@ -48,7 +57,7 @@ const Home = (props) => {
                 Por que escolher nosso aplicativo?
               </h2>
               <span className="home-details-sub-heading">
-                <span className="home-text04">
+                <span className="home-text07">
                   Nosso aplicativo oferece recomendação de presentes e sorteios
                   Cupom da shopee.
                 </span>
@@ -103,7 +112,7 @@ const Home = (props) => {
             </div>
             <div className="home-separator"></div>
             <div className="home-container4">
-              <span className="home-text10">
+              <span className="home-text13">
                 © 2024 Presentelive, All Rights Reserved.
               </span>
               <div className="home-icon-group">
@@ -226,7 +235,7 @@ const Home = (props) => {
             height: 96px;
             object-fit: cover;
           }
-          .home-text {
+          .home-text03 {
             font-size: 22px;
             align-self: center;
           }
@@ -271,7 +280,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text01 {
+          .home-text04 {
             color: var(--dl-color-primary1-blue80);
             text-align: left;
             font-family: 'Raleway';
@@ -291,7 +300,7 @@ const Home = (props) => {
             line-height: 1.6;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-text04 {
+          .home-text07 {
             text-align: left;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -322,7 +331,7 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: flex-start;
-            background-color: #ff0066;
+            background-color: #123e85;
           }
           .home-banner-heading {
             color: var(--dl-color-gray-white);
@@ -338,8 +347,9 @@ const Home = (props) => {
             line-height: 1.6;
           }
           .home-icon {
-            width: 24px;
-            height: 24px;
+            fill: #d9d9d9;
+            width: 44px;
+            height: 44px;
           }
           .home-banner-button {
             color: var(--dl-color-gray-white);
@@ -353,7 +363,7 @@ const Home = (props) => {
             padding-right: 3rem;
             padding-bottom: 1.5rem;
             text-decoration: none;
-            background-color: var(--dl-color-primary1-blue100);
+            background-color: rgb(29, 196, 228);
           }
           .home-banner-button:hover {
             border-color: rgba(41, 20, 119, 0.9);
@@ -438,7 +448,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text10 {
+          .home-text13 {
             color: var(--dl-color-gray-white);
           }
           .home-icon-group {
@@ -495,7 +505,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
             }
-            .home-text04 {
+            .home-text07 {
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
@@ -524,7 +534,7 @@ const Home = (props) => {
               align-items: center;
               justify-content: flex-start;
             }
-            .home-text01 {
+            .home-text04 {
               text-align: center;
             }
             .home-details-heading {
@@ -535,7 +545,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .home-text04 {
+            .home-text07 {
               text-align: center;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
@@ -567,7 +577,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text10 {
+            .home-text13 {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
           }
@@ -584,11 +594,11 @@ const Home = (props) => {
             }
             .home-hero-heading {
               color: var(--dl-color-gray-white);
-              font-family: Raleway;
-              line-height: 1.6;
             }
             .home-hero-sub-heading {
               color: var(--dl-color-gray-white);
+              font-size: 18px;
+              line-height: 1.6;
               background-color: rgb(255, 0, 102);
             }
             .home-btn-group {
@@ -598,7 +608,7 @@ const Home = (props) => {
               width: 50px;
               height: 53px;
             }
-            .home-text {
+            .home-text03 {
               align-self: center;
               text-align: center;
             }
@@ -665,7 +675,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text10 {
+            .home-text13 {
               text-align: center;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
