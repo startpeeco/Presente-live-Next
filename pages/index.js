@@ -249,7 +249,7 @@ const Home = (props) => {
             align-self: center;
           }
           .home-hero-button2 {
-            color: var(--dl-color-gray-white);
+            color: #291477;
             transition: 0.3s;
             font-weight: bold;
             padding-top: var(--dl-space-space-unit);
