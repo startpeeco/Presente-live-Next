@@ -609,7 +609,8 @@ const Home = (props) => {
               text-align: center;
             }
             .home-hero-button2 {
-              color: var(--dl-color-gray-white);
+              color: rgb(41, 20, 119);
+              font-size: 22px;
               margin-top: var(--dl-space-space-unit);
               font-weight: bold;
               margin-left: 0px;
