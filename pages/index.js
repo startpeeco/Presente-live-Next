@@ -626,11 +626,12 @@ const Home = (props) => {
               padding-bottom: var(--dl-space-space-twounits);
             }
             .home-banner-heading {
-              color: var(--dl-color-gray-white);
+              color: #ffffff;
               font-family: Raleway;
               line-height: 1.6;
             }
             .home-icon {
+              fill: #ffffff;
               width: 99px;
               height: 66px;
             }
