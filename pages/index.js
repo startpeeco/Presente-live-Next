@@ -199,18 +199,17 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-hero-heading {
-            color: #ff0066;
+            color: rgb(255, 0, 102);
             max-width: 800px;
             text-align: center;
             font-family: 'Raleway';
             line-height: 1.6;
           }
           .home-hero-sub-heading {
-            color: var(--dl-color-gray-white);
+            color: var(--dl-color-gray-black);
             font-size: 18px;
             text-align: center;
             line-height: 1.6;
-            background-color: rgb(255, 0, 102);
           }
           .home-btn-group {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -596,12 +595,6 @@ const Home = (props) => {
               color: #ff0066;
               font-family: Raleway;
               line-height: 1.6;
-            }
-            .home-hero-sub-heading {
-              color: var(--dl-color-gray-white);
-              font-size: 18px;
-              line-height: 1.6;
-              background-color: rgb(255, 0, 102);
             }
             .home-btn-group {
               flex-direction: column;
