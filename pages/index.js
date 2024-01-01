@@ -13,7 +13,7 @@ const Home = (props) => {
           <div className="home-hero1">
             <div className="home-container1">
               <h1 className="home-hero-heading heading1">
-                Encontramos o presente perfeito
+                Encontramos o presente perfeito!
               </h1>
               <span className="home-hero-sub-heading">
                 <span>
@@ -592,7 +592,8 @@ const Home = (props) => {
               margin-bottom: var(--dl-space-space-unit);
             }
             .home-hero-heading {
-              color: #ff0066;
+              color: rgb(255, 0, 102);
+              font-size: 2rem;
               font-family: Raleway;
               line-height: 1.6;
             }
