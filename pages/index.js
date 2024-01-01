@@ -49,15 +49,11 @@ const Home = (props) => {
         <div className="home-details">
           <div className="home-details1">
             <div className="home-container2">
-              <span className="home-text04 sectionTitle">
-                <span>Detalhes</span>
-                <br></br>
-              </span>
               <h2 className="home-details-heading heading2">
                 Por que escolher nosso aplicativo?
               </h2>
               <span className="home-details-sub-heading">
-                <span className="home-text07">
+                <span className="home-text04">
                   Nosso aplicativo oferece recomendação de presentes e sorteios
                   Cupom da shopee.
                 </span>
@@ -112,7 +108,7 @@ const Home = (props) => {
             </div>
             <div className="home-separator"></div>
             <div className="home-container4">
-              <span className="home-text13">
+              <span className="home-text10">
                 © 2024 Presentelive, All Rights Reserved.
               </span>
               <div className="home-icon-group">
@@ -280,12 +276,6 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text04 {
-            color: var(--dl-color-primary1-blue80);
-            text-align: left;
-            font-family: 'Raleway';
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
           .home-details-heading {
             width: 80%;
             text-align: left;
@@ -300,7 +290,7 @@ const Home = (props) => {
             line-height: 1.6;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-text07 {
+          .home-text04 {
             text-align: left;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -448,7 +438,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text13 {
+          .home-text10 {
             color: var(--dl-color-gray-white);
           }
           .home-icon-group {
@@ -505,7 +495,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
             }
-            .home-text07 {
+            .home-text04 {
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
@@ -534,9 +524,6 @@ const Home = (props) => {
               align-items: center;
               justify-content: flex-start;
             }
-            .home-text04 {
-              text-align: center;
-            }
             .home-details-heading {
               text-align: center;
             }
@@ -545,7 +532,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .home-text07 {
+            .home-text04 {
               text-align: center;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
@@ -577,7 +564,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text13 {
+            .home-text10 {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
           }
@@ -675,7 +662,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text13 {
+            .home-text10 {
               text-align: center;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
