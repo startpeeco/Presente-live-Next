@@ -339,9 +339,9 @@ const Home = (props) => {
             line-height: 1.6;
           }
           .home-icon {
-            fill: #d9d9d9;
-            width: 44px;
-            height: 44px;
+            fill: var(--dl-color-gray-white);
+            width: 101px;
+            height: 57px;
           }
           .home-banner-button {
             color: var(--dl-color-gray-white);
@@ -355,7 +355,7 @@ const Home = (props) => {
             padding-right: 3rem;
             padding-bottom: 1.5rem;
             text-decoration: none;
-            background-color: rgb(29, 196, 228);
+            background-color: rgb(41, 20, 119);
           }
           .home-banner-button:hover {
             border-color: rgba(41, 20, 119, 0.9);
@@ -544,6 +544,9 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
+            .home-icon {
+              fill: var(--dl-color-gray-white);
+            }
             .home-footer1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
@@ -579,6 +582,9 @@ const Home = (props) => {
               font-size: 2rem;
               font-family: Raleway;
               line-height: 1.6;
+            }
+            .home-hero-sub-heading {
+              color: var(--dl-color-gray-black);
             }
             .home-btn-group {
               flex-direction: column;
